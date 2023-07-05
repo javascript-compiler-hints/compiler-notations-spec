@@ -1,5 +1,7 @@
 # JavaScript Compiler Hint Notation Specifications (Draft)
 
+> These specs are in draft and looking for review/feedback. [👉 Motivations & Discussions](https://github.com/js-compiler-hints-spec/compiler-hint-notations-spec-draft/issues/1).
+
 This repository contains the community specifications commonly used JavaScript compiler hint notations, including:
 
 - [`#__PURE__` Notation Specification](./pure-notation-spec.md)
