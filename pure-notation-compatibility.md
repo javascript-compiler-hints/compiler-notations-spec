@@ -1,6 +1,6 @@
 # `#__PURE__` Notation Compatibility Table
 
-The following table lists the compatibility of the [`#__PURE__` notation](./pure-notation-spec) with popular JavaScript bundlers and minifiers. This table is not exhaustive.
+The following table lists the compatibility of the [`#__PURE__` notation](./pure-notation-spec.md) with popular JavaScript bundlers and minifiers. This table is not exhaustive.
 
 | Tool | Documentation | Note |
 | ---- | ----------------- | ------------- |

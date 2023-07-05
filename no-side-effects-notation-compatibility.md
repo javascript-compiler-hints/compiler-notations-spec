@@ -1,6 +1,6 @@
 # `#__NO_SIDE_EFFECTS__` Notation Compatibility Table
 
-The following table lists the compatibility of the [`#__NO_SIDE_EFFECTS__` notation](./no-side-effects-notation-spec) with popular JavaScript bundlers and minifiers. This table is not exhaustive.
+The following table lists the compatibility of the [`#__NO_SIDE_EFFECTS__` notation](./no-side-effects-notation-spec.md) with popular JavaScript bundlers and minifiers. This table is not exhaustive.
 
 | Tool | Documentation | Note |
 | ---- | ----------------- | ------------- |
