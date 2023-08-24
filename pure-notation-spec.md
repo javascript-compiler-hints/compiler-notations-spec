@@ -9,13 +9,7 @@ The `#__PURE__` notation is a special comment syntax used by JavaScript bundlers
 The `#__PURE__` notation is used as a comment in JavaScript code and should be placed immediately before the function or expression it refers to. The notation follows the `#__PURE__` or the `@__PURE__` keyword, enclosed within double underscores and double hashes.
 
 ```javascript
-/*#__PURE__*/
-function pureFunction() {
-  // Function code here
-}
-
-/* @__PURE__ */
-var pureExpression = someValue;
+let pureExpression = /* @__PURE__ */ inPureFunction();
 ```
 
 ## Semantics
@@ -38,7 +32,7 @@ To mark a specific expression or assignment as pure, place the `#__PURE__` or `@
 
 ```javascript
 /* #__PURE__ */
-var pureExpression = pureOperation();
+let pureExpression = pureOperation();
 ```
 
 ### 2. Inline Annotation
@@ -47,8 +41,8 @@ In some cases, it may be necessary to annotate a specific line of code within a 
 
 ```javascript
 function impureFunction() {
-    var result = /*#__PURE__*/ expensiveOperation(); // Inline annotation
-    // Function code here
+  let result = /*#__PURE__*/ expensiveOperation(); // Inline annotation
+  // Function code here
 }
 ```
 
