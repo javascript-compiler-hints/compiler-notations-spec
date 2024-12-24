@@ -77,5 +77,5 @@ This notation is originally brought up by Rollup in [rollup/rollup#5024](https:/
 
 Developers should consult the documentation of their chosen bundler or minifier to ensure compatibility and proper usage of this notation.
 
-Reference to the [Compatibility Table](./pure-notation-compatibility.md) for a list of supported tools.
+Reference to the [Compatibility Table](./no-side-effects-notation-compatibility.md) for a list of supported tools.
 
