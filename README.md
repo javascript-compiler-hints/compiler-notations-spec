@@ -4,8 +4,8 @@
 
 This repository contains the community specifications commonly used JavaScript compiler hint notations, including:
 
-- [`#__PURE__` Notation Specification](./pure-notation-spec.md)
-- [`#__NO_SIDE_EFFECTS__` Notation Specification](./no-side-effects-notation-spec.md)
+- [`#__PURE__` Notation Specification](./pure-notation/pure-notation-spec.md)
+- [`#__NO_SIDE_EFFECTS__` Notation Specification](./no-side-effects-notation/no-side-effects-notation-spec.md)
 
 ## Motivation
 
@@ -15,5 +15,5 @@ JavaScript bundlers and minifiers often rely on compiler hint notations to optim
 
 This repo also maintains compatibility tables for these notations.
 
-- [`#__PURE__` Notation Compatibility Table](./pure-notation-compatibility.md)
-- [`#__NO_SIDE_EFFECTS__` Notation Compatibility Table](./no-side-effects-notation-compatibility.md)
+- [`#__PURE__` Notation Compatibility Table](./pure-notation/pure-notation-compatibility.md)
+- [`#__NO_SIDE_EFFECTS__` Notation Compatibility Table](./no-side-effects-notation/no-side-effects-notation-compatibility.md)
