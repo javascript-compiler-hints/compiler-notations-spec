@@ -17,3 +17,10 @@ This repo also maintains compatibility tables for these notations.
 
 - [`#__PURE__` Notation Compatibility Table](./pure-notation/pure-notation-compatibility.md)
 - [`#__NO_SIDE_EFFECTS__` Notation Compatibility Table](./no-side-effects-notation/no-side-effects-notation-compatibility.md)
+
+## Test Cases
+
+Spec-level conformance test cases for each notation. Each case documents the code under test and the expected detected range.
+
+- [`#__PURE__` Test Cases](./pure-notation/test-cases/)
+- [`#__NO_SIDE_EFFECTS__` Test Cases](./no-side-effects-notation/test-cases/)
