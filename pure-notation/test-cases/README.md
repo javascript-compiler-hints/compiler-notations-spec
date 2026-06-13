@@ -24,3 +24,10 @@ Each file in this directory tree is one conformance test case for the [`#__PURE_
 - Multiple detections are listed as multiple bullets, ordered by start offset.
 - No detection (an ignored or invalid annotation) is written as a single bullet: `- (none)`.
 - A `#__PURE__` detected range covers the marked call or `new` expression. The whole chain when it ends in a call, and the inner call for a parenthesized form.
+
+## Validate
+
+```bash
+pnpm install
+pnpm test
+```

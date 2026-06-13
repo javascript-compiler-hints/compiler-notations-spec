@@ -25,3 +25,10 @@ function foo() {}
 - Multiple detections are listed as multiple bullets, ordered by start offset.
 - No detection (an ignored or invalid annotation) is written as a single bullet: `- (none)`.
 - A `#__NO_SIDE_EFFECTS__` detected range covers the annotated function: the function declaration for declaration forms, or the initializer function/arrow expression for `const`/`var` forms. A leading `export` keyword is excluded.
+
+## Validate
+
+```bash
+pnpm install
+pnpm test
+```
