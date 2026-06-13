@@ -4,10 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run"
   },
   "devDependencies": {
-    "oxfmt": "^0.54.0"
+    "@types/node": "^24.13.2",
+    "oxfmt": "^0.54.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
   },
   "packageManager": "pnpm@11.6.0"
 }
