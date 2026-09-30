@@ -12,3 +12,4 @@ The following table lists the compatibility of the [`#__PURE__` notation](./pure
 | [esbuild](https://esbuild.github.io/) | https://esbuild.github.io/api/#pure |
 | [Rolldown](https://rolldown.rs/) | https://rolldown.rs/options/treeshake#treeshake-annotations |
 | [Oxc Minifier](https://oxc.rs/docs/guide/usage/minifier) | https://oxc.rs/docs/guide/usage/minifier/dead-code-elimination#pure-pure |
+| [SWC Minifier](https://swc.rs/docs/configuration/minification) | https://swc.rs/docs/configuration/minification#__pure__ |
