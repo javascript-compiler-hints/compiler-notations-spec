@@ -1,6 +1,6 @@
-# Annotation on a non-function const is invalid
+# Annotation on a numeric const is invalid
 
-The notation marks functions as side-effect free. A `const` whose initializer is not a function has nothing to annotate, so the annotation is ignored.
+A numeric initializer is neither a function nor a call, so the annotation is ignored (spec "Usage 2" and "Usage 4").
 
 ## Code
 ```js
