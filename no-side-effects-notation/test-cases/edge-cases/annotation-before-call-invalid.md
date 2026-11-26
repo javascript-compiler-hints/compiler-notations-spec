@@ -1,6 +1,8 @@
-# Annotation before a call expression is invalid
+# Annotation before a standalone call expression is invalid
 
-The notation annotates a function declaration, not a call site. Placed before a call expression it has no declaration to mark and is ignored. (Marking an individual call as pure is the role of `#__PURE__`.)
+The annotation before a call counts only when the call initializes a `const` (spec "Usage 4").
+Here the call is an expression statement, so the annotation is ignored.
+To mark a single call as pure, use `#__PURE__`.
 
 ## Code
 ```js

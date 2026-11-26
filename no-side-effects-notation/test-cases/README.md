@@ -24,7 +24,8 @@ function foo() {}
 - "Offsets" are 0-based and end-exclusive (`[start, end)`), counted in UTF-16 code units from the first character inside the ` ```js ` fence.
 - Multiple detections are listed as multiple bullets, ordered by start offset.
 - No detection (an ignored or invalid annotation) is written as a single bullet: `- (none)`.
-- A `#__NO_SIDE_EFFECTS__` detected range covers the annotated function: the function declaration for declaration forms, or the initializer function/arrow expression for `const`/`var` forms. A leading `export` keyword is excluded.
+- For a function definition, a `#__NO_SIDE_EFFECTS__` detected range covers the annotated function: the function declaration for declaration forms, or the initializer function/arrow expression for `const`/`var` forms. A leading `export` keyword is excluded.
+- For a `const` call or `new` initializer (spec "Usage 4"), the detected range covers the initializer expression, excluding any grouping parentheses that enclose it.
 
 ## Validate
 
